@@ -51,15 +51,3 @@ function suitJari() {
     alert("Komputer pilih " + kom + ", kalah kalah");
   }
 }
-
-let menu = prompt("mau main suit apani? batu / gajah / jari");
-
-if (menu == "batu") {
-  suitBatu();
-} else if (menu == "gajah") {
-  suitGajah();
-} else if (menu == "jari") {
-  suitJari();
-} else {
-  alert("Menu tidak ada");
-}
