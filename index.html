@@ -4,7 +4,7 @@
   <title>Suit</title>
   <style>
     body {
-      background-color: hsl(314, 77%, 88%);
+      background-color: #f8c9ed;
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 30px;
@@ -20,6 +20,7 @@
       margin: 15px auto;
       padding: 15px;
       border-radius: 10px;
+      cursor: pointer;
     }
 
     .emot {
@@ -31,17 +32,17 @@
   <h1>🎮 Permainan Suit 🎮</h1>
   <p>musuhmu adalah komputer, pilih satu aja suitnya!</p>
 
-  <div class="kotak">
+  <div class="kotak" onclick="suitBatu()">
     <div class="emot">✊ ✌️ ✋</div>
     <p>Batu Gunting Kertas</p>
   </div>
 
-  <div class="kotak">
+  <div class="kotak" onclick="suitGajah()">
     <div class="emot">🐘 🧍 🐜</div>
     <p>Gajah Orang Semut</p>
   </div>
 
-  <div class="kotak">
+  <div class="kotak" onclick="suitJari()">
     <div class="emot">👍 ☝️ 🤙</div>
     <p>Suit Jari</p>
   </div>
