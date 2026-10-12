@@ -1,3 +1,8 @@
+// sambutan waktu halaman dibuka
+window.onload = function () {
+  alert("Hai, halo! Selamat datang di permainan suit. Klik salah satu kotak kalau mau main ya");
+};
+
 function suitBatu() {
   let pilihan = ["batu", "gunting", "kertas"];
   let user = prompt("Pilih batu, gunting, atau kertas");
